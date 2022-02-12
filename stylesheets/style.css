@@ -52,13 +52,49 @@ h6 {
   overflow-wrap: break-word;
 }
 
+main {
+  margin: auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
+}
+.attribution a {
+  color: white;
 }
 
-.attribution a {
-  color: #3e52a3;
+.col-left {
+  flex: 50%;
+}
+
+.col-right {
+  flex: 50%;
+  padding: 6rem 6rem 6rem 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(180deg, #af67e9, #6565e7);
+  padding-bottom: 0.5rem;
+}
+
+.heading {
+  color: #1d1e35;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  width: 75%;
+  background-color: white;
+  margin: auto;
+  border-radius: 1.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
